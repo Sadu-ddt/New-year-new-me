@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* header section */
+.header-section{
+    text-align: right;
+    background-image: url('images/banner/rsz_2banner1.png');
+    background-repeat: no-repeat;
+    padding: 250px 50px;
+}
+.header-section button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    border: 0px;
+}
+/* flexing items */
+.adjust{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-aligning{
+    text-align: center;
+}
+
+/* positive section */
+#possitive-mindset-section{
+    border-radius: 10px;
+    width: 80%;
+    padding: 40px 40px;
+    margin: 40px;
+    color: black;
+    justify-content: center;
+    background-image: url('images/gradient1.png');
+    background: linear-gradient(to right, #E75480, rgb(231, 228, 228));
+
+    
+
+}
+#possitive-mindset-section button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #153084;
+    font-weight: 600;
+}
+
+/* footer */
+footer{
+    color: whitesmoke;
+    background-color: black;
+    width: 100%;
+    padding: 20px 40px;
+}
